@@ -7,11 +7,19 @@ const numbers = [3, 4, 5, 6, 7, 8];
 //     output.push(result);
 // }
 
-const square = element =>element * element;
-const result = numbers.map(function(element){
-    return element * element;
-})
+// const square = element => element * element;
+// const result = numbers.map(function(element){
+//     return element * element;
+// })
 
-console.log(square);
+// const result = numbers.map(x => x * x);
+
+// console.log(result);
+
+const bigger = numbers.filter(x => x < 5);
+
+const isThere = numbers.find(x => x > 5);
+
+console.log(isThere);
 
 
